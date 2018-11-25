@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 html,body{
-    background-image: url("../images/background.jpg");
+    background: url("images/background.jpg") no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
     font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
     color: #FFF;
@@ -28,8 +27,6 @@ a:hover{
 }
 ul,li{
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .clear{
     clear: both;
@@ -84,12 +81,10 @@ ul#signIn li a{
 #searchBox input{
     width: 500px;
     height: 45px;
-    font-size: 15px;
-    padding: 10px;
-    background-image: url("../images/SearchBTN.png");
-    background-repeat: no-repeat;
+    font-size: 1.5em;
+    padding: 12px;
+    background: white url("images/SearchBTN.png") no-repeat right center;
     background-origin: content-box;
-    background-position: right center;
 }
 /* Footer */
 div#footer{
