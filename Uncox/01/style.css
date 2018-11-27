@@ -1,118 +1,94 @@
 /* General Style */
-
-*
-{
-    margin      : 0;
-    padding     : 0;
-    box-sizing  : border-box;
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
 }
-html,body
-{
-    background      : url("images/background.jpg") no-repeat;
-    background-size : cover;
-    height          : 100%;
-    font-family     : "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
-    color           : #FFF;
-    font-size       : 15px;
+html,body {
+    background     : url("images/background.jpg") no-repeat;
+    background-size: cover;
+    height         : 100%;
+    font-family    : "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    color          : #FFF;
+    font-size      : 15px;
 }
-img
-{
+img {
     max-width: 100%;
 }
-a
-{
-    color           : #DDD;
-    text-decoration : none;
+a {
+    color          : #DDD;
+    text-decoration: none;
 }
-a:hover
-{
+a:hover {
     color: #FFF;
 }
-.active a
-{
-    padding-bottom  : 10px;
-    border-bottom   : 1px solid #FFF;
+.active a {
+    padding-bottom: 10px;
+    border-bottom : 1px solid #FFF;
 }
-ul,li
-{
+ul,li {
     list-style: none;
 }
-.clear
-{
+.clear {
     clear: both;
 }
-#container
-{
-    padding : 0 80px;
-    height  : 94%;
+#container {
+    padding: 0 80px;
+    height : 94%;
 }
 
 /* Header */
-
-div#header
-{
-    display         : flex;
-    justify-content : space-between;
-    padding-top     : 10px;
+div#header {
+    display        : flex;
+    justify-content: space-between;
+    padding-top    : 10px;
 }
-ul#navigationBar
-{
+ul#navigationBar {
     display: flex;
 }
-ul#navigationBar li,ul#navigationBar li a
-{
+ul#navigationBar li,ul#navigationBar li a {
     display: block;
     padding: 2px 7px;
 }
-ul#navigationBar li:nth-child(4) a
-{
+ul#navigationBar li:nth-child(4) a {
     border-right: 2px solid #DDD;
 }
-ul#signIn
-{
+ul#signIn {
     display: flex;
 }
-ul#signIn li,ul#signIn li a
-{
+ul#signIn li,ul#signIn li a {
     display: block;
     padding: 5px;
 }
-ul#signIn li a
-{
+ul#signIn li a {
     color: #FFF;
 }
-#signInIconA
-{
+#signInIconA {
     background-color: #FFF;
     width           : 32px;
     height          : 32px;
     display         : block;
     border-radius   : 50%;
 }
-
 /* Main */
-#searchBox
-{
-    display     : flex;
-    align-items : center;
-    margin      : 80px 20px;
+#searchBox {
+    display    : flex;
+    align-items: center;
+    margin     : 80px 20px;
 }
-#searchBox img
-{
+#searchBox img {
     margin-right: 20px;
 }
-#searchBox input
-{
-    width               : 500px;
-    height              : 45px;
-    font-size           : 1.5em;
-    padding             : 12px;
-    background          : white url("images/SearchBTN.png") no-repeat right center;
-    background-origin   : content-box;
+#searchBox input {
+    width            : 500px;
+    height           : 45px;
+    font-size        : 1.5em;
+    padding          : 12px;
+    background       : white url("images/SearchBTN.png") no-repeat right center;
+    background-origin: content-box;
 }
 /* Footer */
-div#footer
-{
+div#footer {
     display         : flex;
     justify-content : space-between;
     height          : 6%;
@@ -120,33 +96,26 @@ div#footer
     background-color: #333;
     font-size       : 13px;
 }
-#moreLinks
-{
+#moreLinks {
     display: flex;
 }
-#moreLinks li:first-of-type
-{
+#moreLinks li:first-of-type {
     margin-left: 50px;
 }
-#moreLinks li,#moreLinks li a,#copyRight
-{
+#moreLinks li,#moreLinks li a,#copyRight {
     display: block;
     padding: 2px 7px;
 }
-#moreLinks li a,#copyRight
-{
+#moreLinks li a,#copyRight {
     color: #666;
 }
-#moreLinks li a:hover
-{
-    color           : #888;
-    text-decoration : underline;
+#moreLinks li a:hover {
+    color          : #888;
+    text-decoration: underline;
 }
-#copyRight
-{
+#copyRight {
     margin-right: 50px;
 }
-#copyRight:hover
-{
+#copyRight:hover {
     color: #888;
 }
