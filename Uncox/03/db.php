@@ -5,11 +5,7 @@ class Db{
 
     public static function getInstance(){
         if(self::$db == null){
-            echo "new connection <br>";
             self::$db = new Db();
-        }
-        else{
-            echo "reused<br>";
         }
         return self::$db;
     }
@@ -43,9 +39,28 @@ class Db{
         }
         return $records[0];
     }
-
+    public function modify($sql){
+        $result = $this->connection->query($sql);
+        if(!$result){
+            echo "Query: ".$sql." Faild due to ".mysqli_error($this->connection);
+            exit();
+        }
+        return $result;
+    }
+    public function insert($sql){
+        $result = $this->connection->query($sql);
+        if(!$result){
+            echo "Query: ".$sql." Faild due to ".mysqli_error($this->connection);
+            exit();
+        }
+        return $result;
+    }
     public function query($sql){
         $result = $this->connection->query($sql);
+        if(!$result){
+            echo "Query: ".$sql." Faild due to ".mysqli_error($this->connection);
+            exit();
+        }
         $records = array();
         if ($result->num_rows == 0) {
             return null;

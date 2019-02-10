@@ -10,6 +10,8 @@
 <body>
 <?php
 require_once("class.php");
+global $a;
+echo $a;
 echo Car::$capacity;
 echo "<br>";
 Car::getCapacity();

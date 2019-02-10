@@ -26,3 +26,5 @@ class car
         echo "Color is:  " . $this->color;
     }
 }
+global $a;
+$a = 10;

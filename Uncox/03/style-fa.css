@@ -1,0 +1,145 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+html,body,input,textarea{
+    color : #2b78c2;
+    font-family : arial,sans-serif;
+}
+input,textarea{
+    padding : 5px 10px;
+}
+input[type=submit]{
+    display : block;
+    margin : 20px auto 0;
+    border : none;
+    padding : 7px 10px;
+    background-color : #2b78c2;
+    color : #FFF;
+}
+a{
+    display: block;
+    width: 143px;
+    margin: 20px auto 0;
+    text-decoration : none;
+}
+ul{
+    margin : 0;
+    padding : 0;
+    list-style : none;
+}
+.tac{
+    text-align : center;
+}
+.mt20{
+    margin-top : 20px;
+}
+.mt50{
+    margin-top : 50px;
+}
+.mt100{
+    margin-top : 100px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.ml50{
+    margin-left: 50px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.mr50{
+    margin-right: 50px;
+}
+.homeHeader{
+    background-color : #2b78c2;
+    color : #FFF;
+    padding : 10px;
+    font-weight : bold;
+}
+.btn{
+    text-decoration : none;
+    width: 50px;
+    display : inline-block;
+    margin : 0 10px;
+    padding : 5px;
+    color: #FFF;
+}
+.block{
+    display : block;
+}
+.lf{
+    font-weight : bold;
+    font-size : 20px;
+}
+.flex-container{
+    display : flex;
+    justify-content : space-around;
+    background-color : #2b78c2;
+    color : #FFF;
+    width : 80%;
+    margin : 0 auto;
+}
+.flex-container li:nth-child(1){
+    padding: 10px;
+    width : 100px;
+    min-width : 100px;
+    max-width: 100px;
+    text-align : center;
+}
+.flex-container li:nth-child(2){
+    padding: 10px;
+    width : 100px;
+    min-width : 100px;
+    max-width: 100px;
+    text-align : center;
+}
+.flex-container li:nth-child(3){
+    padding: 10px;
+    width : 30%;
+}
+.flex-container li:nth-child(4){
+    padding : 10px;
+    width : 70%;
+}
+.flex-container li:nth-child(5){
+    padding : 10px;
+    min-width : 170px;
+    text-align : center;
+}
+.flex-container:nth-child(odd){
+    background-color : #2b4a92;
+}
+.flex-container:nth-child(even){
+    background-color : #2b78c2;
+}
+.flex-container a{
+    display : inline-block;
+    margin : 0;
+    padding : 0;
+    color : #FFF;
+    width: 80px;
+    text-align : center;
+}
+.bold li{
+    font-weight : bold;
+    text-align : center;
+    background-color : #282b79;
+}
+.flex-container.done{
+    background-color: rgba(0,255,0,0.5);
+}
+.flex-container.pending{
+    background-color: rgba(255,0,0,0.5);
+}
+.newEvent{
+    background-color : #2b78c2;
+    color : #FFF;
+    padding : 10px;
+    width : 120px;
+    border-radius: 5px;
+    font-weight : bold;
+}
